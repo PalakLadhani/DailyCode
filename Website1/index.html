@@ -3,7 +3,61 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>LoginPage</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="SignUp.html" />
+    <link href="forgot.html" />
   </head>
-  <body></body>
+  <body>
+    <div class="login">
+      <h2>Login</h2>
+      <br />
+      <form action="/action.php" method="post">
+        <div class="input-box">
+          <label for="Username"
+            >Username
+            <input
+              type="text"
+              name="name"
+              placeholder="enter your name"
+              required
+          /></label>
+        </div>
+        <br />
+        <div class="input-box">
+          <label for="email"
+            >Email
+            <input
+              type="email"
+              name="email"
+              placeholder="enter your email"
+              required
+          /></label>
+        </div>
+        <br />
+
+        <div class="input-box">
+          <label for="password"
+            >Password
+            <input
+              type="password"
+              name="password"
+              placeholder="enter your password"
+              required
+          /></label>
+        </div>
+        <div class="input-box">
+          <br />
+          <a href="forgot.html">Forgot Password</a>
+          <input type="checkbox" name="remem" id="box" />Remember Me<br /><br />
+
+          <input type="submit" />
+          <p>
+            Dont have an account?
+            <a href="SignUp.html">Create An Account</a>
+          </p>
+        </div>
+      </form>
+    </div>
+  </body>
 </html>
