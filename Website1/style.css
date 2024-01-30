@@ -171,3 +171,36 @@ input[type="submit"]:hover {
   background-image: url("travel2.jpg");
   background-size: cover;
 }
+.foot-Panel1 {
+  background-color: #fff;
+  color: black;
+  height: 500px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.foot-panel2 img {
+  height: 30px;
+  width: auto;
+  margin-right: 10px;
+}
+.foot-panel2 p {
+  font-size: large;
+
+  color: #ccc;
+}
+.foot-panel3 {
+  background-color: #fff;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.foot-panel3 img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: inline-block;
+  height: 40px;
+  width: auto;
+  margin-right: 10px;
+}
